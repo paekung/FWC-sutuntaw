@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basics</title>
+    <style>
+        body {
+            background-color: pink;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+        }
+
+        .shops-container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 40px 0;
+        }
+
+        .shop-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .shop-item img {
+            width: 200px;
+            height: auto;
+            display: block;
+        }
+
+        .shop-item a {
+            margin-top: 10px;
+        }
+
+        hr {
+            width: 100%;
+            border: 0;
+            border-top: 1px solid black;
+        }
+
+        .footer {
+            text-align: right;
+            font-style: italic;
+            font-family: monospace;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to the Shop &amp; Store!</h1>
+
+    <div class="shops-container">
+        <div class="shop-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon">
+            <a href="https://www.amazon.com" target="_blank">Amazon</a>
+        </div>
+        <div class="shop-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg" alt="eBay">
+            <a href="https://www.ebay.com" target="_blank">eBay</a>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="footer">
+        &copy; wil 2026
+    </div>
+
+</body>
+</html>
