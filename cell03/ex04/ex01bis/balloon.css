@@ -1,0 +1,13 @@
+body {
+	text-align: center;
+	padding-top: 100px;
+}
+
+#balloon {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	border-radius: 50%;
+	display: inline-block;
+	cursor: pointer;
+}
