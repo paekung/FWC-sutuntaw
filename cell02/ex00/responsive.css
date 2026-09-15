@@ -1,0 +1,30 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    border: 1px solid #333;
+}
+
+td {
+    border: 1px solid #333;
+    height: 120px;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.cell-1 {
+    background-color: tomato;
+    width: 50%;
+}
+
+.cell-2 {
+    background-color: lightblue;
+    width: 50%;
+}
